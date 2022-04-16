@@ -26,7 +26,7 @@ Với mỗi $T$ từ $L$ đến $R$, bạn phải in ra dãy cân nặng có đ�
 - Khối lượng các quả tạ phải từ $0$ đến $100$.
 
 ## Subtask
-- Subtask 1 (15% số điểm): $L, R \leq 1,000$.
+- Subtask 1 (15% số điểm): $L, R \leq 2,000$.
 - Subtask 2 (30% số điểm): $L, R \leq 50,000$.
 - Subtask 3 (55% số điểm): Không có điều kiện gì thêm.
 

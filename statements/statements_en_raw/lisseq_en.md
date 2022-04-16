@@ -26,7 +26,7 @@ For each $T$ from $L$ to $R$, you have to determine the answer for $T$. In other
 - The weight of the weights must be between $0$ and $100$.
 
 ## Subtask
-- Subtask 1 (15%): $L, R \leq 1,000$
+- Subtask 1 (15%): $L, R \leq 2,000$
 - Subtask 2 (30%): $L, R \leq 50,000$
 - Subtask 3 (55%): No additional contraints.
 

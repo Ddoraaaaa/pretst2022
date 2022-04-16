@@ -33,7 +33,7 @@ You have to process queries of 2 types:
 
 ## Output	
 
-For each query of type 2, print the answer to the $1^{st}$ decimal digit. If Vien cannot reach any country, print $-1$
+For each query of type 2, print the answer to the $4^{th}$ decimal digit. If Vien cannot reach any country, print $-1$
 
 ## Constraints
 - $Q \leq 250,000$

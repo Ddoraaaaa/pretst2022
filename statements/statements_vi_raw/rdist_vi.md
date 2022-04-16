@@ -33,7 +33,7 @@ Bạn sẽ phải xử lý các truy vấn thuộc 1 trong 2 loại sau:
 
 ## Output	
 
-Với mỗi truy vấn loại 2, in ra đáp án của truy vấn đó, làm tròn đến chữ số thập phân thứ nhất. Nếu Viễn không thể đến được quốc gia nào, in ra $-1$.
+Với mỗi truy vấn loại 2, in ra đáp án của truy vấn đó, làm tròn đến bốn chữ số thập phân. Nếu Viễn không thể đến được quốc gia nào, in ra $-1$.
 
 ## Giới hạn
 - $Q \leq 250,000$
@@ -46,6 +46,8 @@ Với mỗi truy vấn loại 2, in ra đáp án của truy vấn đó, làm tr�
 - Subtask 3 (20% số điểm): Không có truy vấn loại 2 nào được hỏi trước 1 truy vấn loại 1.
 - Subtask 4 (20% số điểm): Tất cả các ngân hàng đều có tọa độ $x$ và $y$ phân biệt.
 - Subtask 5 (30% số điểm): Không có điều kiện gì thêm.
+
+$\pagebreak$
 
 ## Sample
 

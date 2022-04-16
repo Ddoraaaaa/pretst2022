@@ -1,5 +1,7 @@
 # Bitwise
 
+**Note:** The problem has an unusual memory constraint of **64mb**.
+
 After seeing an ad for the Banana trading app, you decided that you want to try it out!
 Upon opening up the app, you realized that it is not so simple...
 

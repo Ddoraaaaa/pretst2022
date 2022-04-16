@@ -13,7 +13,7 @@ Define $R(x, y)$ as the territory of the country whose bank is placed at $(x, y)
 
 Define $D(P, A)$ for $P = (u, v)$ as the shortest distance from $(u, v)$ to $A$. In other words, $D(P, A) = min(|u - x| + |v - y|) \space \forall \space (x, y) \in A$.
 
-Define $G(u, v, S_1, S_2)$ ($S_0, S_1 \in \{“<=”, “>=”\}$) as points in the $S_1S_2$ "quadrant" of $(u,v)$. In other words: $G(u, v, S_1, S_2) = $ $\{(u', v')$ $|$ $u' S_0 u$ $\&$ $v' S_1 v\}$
+Define $G(u, v, S_0, S_1)$ ($S_0, S_1 \in \{“<=”, “>=”\}$) as points in the $S_0S_1$ "quadrant" of $(u,v)$. In other words: $G(u, v, S_0, S_1) =$ $\{(u', v')$ $|$ $u' S_0 u$ $\&$ $v' S_1 v\}$
 
 You have to process queries of 2 types:
 
@@ -29,7 +29,7 @@ You have to process queries of 2 types:
 
 - The first line has integer $T$ - the subtask containing the test.
 - THe second line has integer $Q$ - the number of queries.
-- $Q$ lines contains a query $1$ $x$ $y$ or $2$ $u$ $v$ $S_1$ $S_2$
+- $Q$ lines contains a query $1$ $x$ $y$ or $2$ $u$ $v$ $S_0$ $S_1$
 
 ## Output	
 

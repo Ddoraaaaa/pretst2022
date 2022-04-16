@@ -13,13 +13,13 @@ Gọi $R(x, y)$ là vùng lãnh thổ của quốc gia có ngân hàng đặt t�
 
 Gọi $D(P, A)$ với $P = (u, v)$ là khoảng cách ngắn nhất từ điểm $(u, v)$ đến $A$. Nói cách khác, $D(P, A) = min(|u - x| + |v - y|) \space \forall \space (x, y) \in A$.
 
-Gọi $G(u, v, S_1, S_2)$ ($S_0, S_1 \in \{“<=”, “>=”\}$) là vùng đến được nếu xuất phát từ $(u,v)$ và đi theo "hướng" $S_1S_2$. Nghĩa là: $G(u, v, S_1, S_2) = $ $\{(u', v')$ $|$ $u' S_0 u$ $\&$ $v' S_1 v\}$
+Gọi $G(u, v, S_0, S_1)$ ($S_0, S_1 \in \{“<=”, “>=”\}$) là vùng đến được nếu xuất phát từ $(u,v)$ và đi theo "hướng" $S_0S_1$. Nghĩa là: $G(u, v, S_0, S_1) =$ $\{(u', v')$ $|$ $u' S_0 u$ $\&$ $v' S_1 v\}$
 
 Bạn sẽ phải xử lý các truy vấn thuộc 1 trong 2 loại sau:
 
 - $1$ $x$ $y$: Viễn đánh rơi 1 chiếc ví trong chuyến du ngoạn đến $(x, y)$. Tại đó mọc lên 1 ngân hàng và thành lập 1 quốc gia mới.
 
-- $2$ $u$ $v$ $S_0$ $S_1$ ($S_0, S_1 \in \{“<=”, “>=”\}$): Viễn hiện đang ở điểm $P=(u, v)$ và muốn du ngoạn tới 1 quốc gia nào đó bằng 1 trong 4 hướng. Vì là dân chơi nên Viễn muốn đến quốc gia xa nhất có thể. Nói cách khác, bạn cần tính: $max(D(P, R'(x,y))$ $(R'(x,y)= R(x,y) \cap G(u,v,S_1,S_2))$ $\forall$ $(x, y)$ có chứa ngân hàng.
+- $2$ $u$ $v$ $S_0$ $S_1$ ($S_0, S_1 \in \{“<=”, “>=”\}$): Viễn hiện đang ở điểm $P=(u, v)$ và muốn du ngoạn tới 1 quốc gia nào đó bằng 1 trong 4 hướng. Vì là dân chơi nên Viễn muốn đến quốc gia xa nhất có thể. Nói cách khác, bạn cần tính: $max(D(P, R'(x,y))$ $(R'(x,y)= R(x,y) \cap G(u,v,S_0,S_1))$ $\forall$ $(x, y)$ có chứa ngân hàng.
 
 ![](rdist2.png)
 
@@ -29,7 +29,7 @@ Bạn sẽ phải xử lý các truy vấn thuộc 1 trong 2 loại sau:
 
 - Dòng đầu tiên chứa số nguyên $T$ - số thứ tự của subtask chứa test đó.
 - Dòng thứ 2 chứa số $Q$ - số truy vấn.
-- $Q$ dòng tiếp theo, mỗi dòng chứa 1 truy vấn có dạng: $1$ $x$ $y$ hoặc $2$ $u$ $v$ $S_1$ $S_2$
+- $Q$ dòng tiếp theo, mỗi dòng chứa 1 truy vấn có dạng: $1$ $x$ $y$ hoặc $2$ $u$ $v$ $S_0$ $S_1$
 
 ## Output	
 

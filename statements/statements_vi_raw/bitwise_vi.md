@@ -1,5 +1,7 @@
 # Bitwise
 
+**Lưu ý:** Bài toán có giới hạn bộ nhớ thấp: **64mb**.
+
 "Ồ! Mình biết bạn đấy. Một năm trước..."
 
 Xem xong video quảng cáo, bạn lập tức mở máy tính và tải ứng dụng Banana. Nhưng nó không đơn giản như vậy. Bật ứng dụng lên, đập vào mắt bạn là vô vàn các dòng lệnh...

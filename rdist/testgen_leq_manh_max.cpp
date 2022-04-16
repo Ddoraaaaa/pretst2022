@@ -35,7 +35,7 @@ vector<int> GenCoords(int cnt, int cntdif)
 		map<int, int> temp; temp.clear();
 		while(temp.size()<cntdif)
 		{
-			temp[rnd.next(1000000000)]=1;
+			temp[rnd.next(100000000)]=1;
 		}
 		for(auto i:temp)
 		{

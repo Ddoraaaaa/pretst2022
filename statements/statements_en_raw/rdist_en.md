@@ -28,7 +28,7 @@ You have to process queries of 2 types:
 ## Input
 
 - The first line has integer $T$ - the subtask containing the test.
-- THe second line has integer $Q$ - the number of queries.
+- The second line has integer $Q$ - the number of queries.
 - $Q$ lines contains a query $1$ $x$ $y$ or $2$ $u$ $v$ $S_0$ $S_1$
 
 ## Output	
@@ -48,6 +48,8 @@ For each query of type 2, print the answer to the $1^{st}$ decimal digit. If Vie
 - Subtask 3 (30%): No additional constraints.
 
 ## Sample
+
+$\pagebreak$
 
 ### Input
 ```

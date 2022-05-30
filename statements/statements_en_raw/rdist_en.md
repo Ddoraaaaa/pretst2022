@@ -13,7 +13,7 @@ Define $R(x, y)$ as the territory of the country whose bank is placed at $(x, y)
 
 Define $D(P, A)$ for $P = (u, v)$ as the shortest distance from $(u, v)$ to $A$. In other words, $D(P, A) = min(|u - x| + |v - y|) \space \forall \space (x, y) \in A$.
 
-Define $G(u, v, S_0, S_1)$ ($S_0, S_1 \in \{“<=”, “>=”\}$) as points in the $S_0S_1$ "quadrant" of $(u,v)$. In other words: $G(u, v, S_0, S_1) =$ $\{(u', v')$ $|$ $u' S_0 u$ $\&$ $v' S_1 v\}$
+Define $G(u, v, S_0, S_1)$ ($S_0, S_1 \in \{“<=”, “>=”\}$) as points in the "$S_0S_1$-quadrant" of $(u,v)$. In other words: $G(u, v, S_0, S_1) =$ $\{(u', v')$ $|$ $u' S_0 u$ $\&$ $v' S_1 v\}$
 
 You have to process queries of 2 types:
 
@@ -33,7 +33,7 @@ You have to process queries of 2 types:
 
 ## Output	
 
-For each query of type 2, print the answer to the $4^{th}$ decimal digit. If Vien cannot reach any country, print $-1$
+Due to the large size of the output, you should print an **integer**: the sum of **two times** of the answers to the type 2 queries. For queries where Vien cannot reach any country, the answer is $-1$ (**not** multiplied by 2).
 
 ## Constraints
 - $Q \leq 250,000$
@@ -48,8 +48,6 @@ For each query of type 2, print the answer to the $4^{th}$ decimal digit. If Vie
 - Subtask 3 (30%): No additional constraints.
 
 ## Sample
-
-$\pagebreak$
 
 ### Input
 ```
@@ -71,15 +69,13 @@ $\pagebreak$
 2 11 5 <= <=
 2 3 5 >= <=
 2 7 3 <= >=
-Output
-2
--1.0
-10.5
-9.5
-8.5
 ```
 
 ### Output
+```
+66
+```
+Explanation: The answers of the queries are:
 ```
 5
 -1

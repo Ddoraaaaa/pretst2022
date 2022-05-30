@@ -36,6 +36,7 @@ For each $T$ from $L$ to $R$, you have to determine the answer for $T$. In other
 ```
 3 5 5
 ```
+**Note:** The sample test is intentionally made not satisfactory to the constraints, and is not used for marking.
 
 ### Output
 ```
@@ -43,4 +44,10 @@ For each $T$ from $L$ to $R$, you have to determine the answer for $T$. In other
 3 2 1 0 4
 1 1 1 1 1
 ```
-**Note:** The sample test is intentionally made not satisfactory to the constraints, and is not used for marking.
+Explanation: The LIS are:
+
+$3: (1, 4, 5), (2, 4, 5), (3, 4, 5)$
+
+$4: (1, 5), (2, 5), (3, 5), (4, 5)$
+
+$5: (1), (2), (3), (4), (5)$

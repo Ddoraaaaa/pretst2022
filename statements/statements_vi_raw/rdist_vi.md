@@ -33,7 +33,7 @@ Bạn sẽ phải xử lý các truy vấn thuộc 1 trong 2 loại sau:
 
 ## Output	
 
-Với mỗi truy vấn loại 2, in ra đáp án của truy vấn đó, làm tròn đến bốn chữ số thập phân. Nếu Viễn không thể đến được quốc gia nào, in ra $-1$.
+Do kích thước của output lớn, thí sinh in ra **số nguyên** là tổng của **2 lần** đáp án của tất cả các truy vấn loại 2. Với các truy vấn mà Viễn không thể đến được quốc gia nào, đáp án truy vấn đó là $-1$ (**không** nhân đôi).
 
 ## Giới hạn
 - $Q \leq 250,000$
@@ -71,15 +71,13 @@ $\pagebreak$
 2 11 5 <= <=
 2 3 5 >= <=
 2 7 3 <= >=
-Output
-2
--1.0
-10.5
-9.5
-8.5
 ```
 
 ### Output
+```
+66
+```
+Giải thích: đáp án các truy vấn là: 
 ```
 5
 -1

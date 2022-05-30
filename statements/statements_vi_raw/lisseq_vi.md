@@ -36,6 +36,7 @@ Với mỗi $T$ từ $L$ đến $R$, bạn phải in ra dãy cân nặng có đ�
 ```
 3 5 5
 ```
+**Lưu ý:** Test ví dụ không thỏa mãn giới hạn chuẩn.
 
 ### Output
 ```
@@ -43,4 +44,10 @@ Với mỗi $T$ từ $L$ đến $R$, bạn phải in ra dãy cân nặng có đ�
 3 2 1 0 4
 1 1 1 1 1
 ```
-**Lưu ý:** Test ví dụ không thỏa mãn giới hạn chuẩn.
+Giải thích: Các dãy con dài nhất là:
+
+$3: (1, 4, 5), (2, 4, 5), (3, 4, 5)$
+
+$4: (1, 5), (2, 5), (3, 5), (4, 5)$
+
+$5: (1), (2), (3), (4), (5)$

@@ -1,6 +1,6 @@
 # Bitwise
 
-**Note:** The problem has an unusual memory constraint of **64mb**.
+**Note:** The problem has an unusual memory constraint of **8mb**.
 
 After seeing an ad for the Banana trading app, you decided that you wanted to try it out!
 Upon opening up the app, you realized that it is not so simple...
@@ -34,8 +34,8 @@ For each `QUERY`-type event, print the answer to that query to a line. As the re
 
 ## Subtask
 - Subtask 1 (25%): $Q \leq 500$.
-- Subtask 2 (25%): There are no `AND` và `OR` *commands*.
-- Subtask 3 (25%): There are no `AND` và `XOR` *commands*.
+- Subtask 2 (25%): There are no `AND` and `OR` *commands*.
+- Subtask 3 (25%): There are no `AND` and `XOR` *commands*.
 - Subtask 4 (25%): No additional constraints
 
 ## Sample
